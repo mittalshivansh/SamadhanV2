@@ -1,4 +1,4 @@
-# Farmer machine, kyc
+# Sr listing
 
 {% api-method method="get" host="https://api.cakes.com" path="/v1/cakes/:id" %}
 {% api-method-summary %}
@@ -18,7 +18,7 @@ ID of the cake to get, for free of course.
 {% endapi-method-path-parameters %}
 
 {% api-method-headers %}
-{% api-method-parameter name="Authorizaion" type="string" required=true %}
+{% api-method-parameter name="Authentication" type="string" required=true %}
 Authentication token to track down who is emptying our stocks.
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
@@ -63,4 +63,6 @@ Could not find a cake matching this query.
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+
 
