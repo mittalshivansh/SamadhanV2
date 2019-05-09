@@ -12,6 +12,10 @@ This endpoint allows you to get all households with farmers and farms
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-query-parameters %}
+{% api-method-parameter name="ci" type="number" required=false %}
+center id
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="ts" type="number" required=false %}
 timestamp
 {% endapi-method-parameter %}
