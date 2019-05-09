@@ -1,4 +1,8 @@
-# Farmer machine, kyc
+---
+description: 'Create or update farmer machine, Kyc update of farmer'
+---
+
+# Farmer machine & KYC
 
 {% api-method method="get" host="https://api.cakes.com" path="/v1/cakes/:id" %}
 {% api-method-summary %}
