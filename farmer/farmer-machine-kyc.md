@@ -4,38 +4,38 @@ description: 'Create or update farmer machine, Kyc update of farmer'
 
 # Farmer machine & KYC
 
-{% api-method method="get" host="https://api.cakes.com" path="/v1/cakes/:id" %}
+{% api-method method="post" host="host" path="/api/Farmer/InsertFarmerMachine" %}
 {% api-method-summary %}
-Get Cakes
+insert farmer machine
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+create farmer macine
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="id" type="string" %}
-ID of the cake to get, for free of course.
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% api-method-body-parameters %}
+{% api-method-parameter name="machine\_type" type="number" required=false %}
 
-{% api-method-headers %}
-{% api-method-parameter name="Authorizaion" type="string" required=true %}
-Authentication token to track down who is emptying our stocks.
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
-
-{% api-method-query-parameters %}
-{% api-method-parameter name="recipe" type="string" %}
-The API will do its best to find a cake matching the provided recipe.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="gluten" type="boolean" %}
-Whether the cake should be gluten-free or not.
+{% api-method-parameter name="machine\_make" type="string" required=false %}
+
 {% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
+
+{% api-method-parameter name="model\_year" type="string" required=false %}
+
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="available" type="string" required=false %}
+is available for rent
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="owned" type="boolean" required=false %}
+machine owned or leased
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -46,9 +46,9 @@ Cake successfully retrieved.
 
 ```javascript
 {
-    "name": "Cake's name",
-    "recipe": "Cake's recipe name",
-    "cake": "Binary cake"
+    "client_ID": "dsdsd2323333ed3",
+    "id": 1,
+    "status": true
 }
 ```
 {% endapi-method-response-example %}
@@ -67,4 +67,6 @@ Could not find a cake matching this query.
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+
 

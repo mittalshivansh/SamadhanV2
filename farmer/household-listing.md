@@ -6,7 +6,7 @@ Get HouseHold
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+This endpoint allows you to get all households with farmers and farms
 {% endapi-method-description %}
 
 {% api-method-spec %}
