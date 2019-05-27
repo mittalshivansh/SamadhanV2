@@ -1,8 +1,8 @@
-# Sr listing
+# Order listing
 
-{% api-method method="get" host="https://api.cakes.com" path="/v1/cakes/:id" %}
+{% api-method method="get" host="https://host" path="/api/order/OrderSrList" %}
 {% api-method-summary %}
-Get Cakes
+getOrderAndSr
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -37,26 +37,37 @@ Whether the cake should be gluten-free or not.
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Cake successfully retrieved.
+Sr list.
 {% endapi-method-response-example-description %}
 
 ```javascript
 {
-    "name": "Cake's name",
-    "recipe": "Cake's recipe name",
-    "cake": "Binary cake"
-}
-```
-{% endapi-method-response-example %}
-
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Could not find a cake matching this query.
-{% endapi-method-response-example-description %}
-
-```javascript
-{
-    "message": "Ain't no cake like that."
+  "PageSize": 50,
+  "SyncDate": 1557337560000,
+  "data": [
+    {
+      "ID": 174928,
+      "LMD": 1557337560000,
+      "Referred_by": 3,
+      "Referred_type": 3,
+      "farmerId": 1,
+      "packageId": 2,
+      "sr": [
+        {
+          "Discount": 10,
+          "Rate": 500,
+          "businessDevBy": 2,
+          "serviceLine": 2,
+          "serviceTypeId": 1,
+          "LMD": 1557337560000
+        }
+      ],
+      "status": "tentative"
+    }
+  ],
+  "error": "",
+  "message": "",
+  "status": true
 }
 ```
 {% endapi-method-response-example %}

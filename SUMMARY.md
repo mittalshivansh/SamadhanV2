@@ -8,5 +8,8 @@
   * [Center Master Data](metadata/center-master-data.md)
   * [Platform Master data](metadata/platform-master-data.md)
 * [Service Request](service-request/README.md)
-  * [Sr listing](service-request/sr-listing.md)
+  * [Order creation](service-request/order-creation.md)
+  * [Job creation or updation](service-request/job-creation-or-updation.md)
+  * [Order listing](service-request/sr-listing.md)
+  * [Center Metadata changes](service-request/center-metadata-changes.md)
 
