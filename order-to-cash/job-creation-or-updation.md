@@ -69,3 +69,16 @@ Could not find a cake matching this query.
 {% endapi-method-spec %}
 {% endapi-method %}
 
+
+
+**Job status :**
+
+* Pending
+* Tentative
+* Tentative- Schedule
+* Schedule
+* Closed
+* completed
+
+
+
