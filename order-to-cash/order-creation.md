@@ -41,7 +41,7 @@ create order
 {% endapi-method-summary %}
 
 {% api-method-description %}
-create farmer macine
+
 {% endapi-method-description %}
 
 {% api-method-spec %}
