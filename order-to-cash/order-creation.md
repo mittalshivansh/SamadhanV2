@@ -1,5 +1,5 @@
 ---
-description: 'Create or update farmer machine, Kyc update of farmer'
+description: 'Create order.  Important : no order can be created without a sr and a job.'
 ---
 
 # Order creation

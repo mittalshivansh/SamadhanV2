@@ -1,6 +1,6 @@
 # Prerequisite for Order to cash workflow
 
-#### Action Points
+#### Prerequisite Action Points
 
 * package listing api
 * add service list in center meta-data api
