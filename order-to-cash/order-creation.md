@@ -4,7 +4,7 @@ description: 'Create order.  Important : no order can be created without a sr an
 
 # Order creation
 
-```text
+```javascript
 {
   "PageSize": 50,
   "SyncDate": 1557337560000,
