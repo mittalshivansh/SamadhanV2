@@ -5,6 +5,7 @@
 * package listing api
 * add service list in center meta-data api
 * add business rules list in center meta data api
+* Permissions \(To be discussed\)
 
 
 
