@@ -6,11 +6,11 @@ description: 'Create or update farmer machine, Kyc update of farmer'
 
 ```text
 {
-  "status": true,
-  "message": "",
+  "PageSize": 50,
+  "SyncDate": 1557337560000,
   "data": [
-   {
-      "ID": 0,
+    {
+      "ID": 174928,
       "LMD": 1557337560000,
       "Referred_by": 3,
       "Referred_type": 3,
@@ -21,17 +21,33 @@ description: 'Create or update farmer machine, Kyc update of farmer'
           "Discount": 10,
           "Rate": 500,
           "businessDevBy": 2,
+          "job": [
+            {
+              "Machine": 2,
+              "Operator": 2,
+              "Service_Partner": "",
+              "Tentative_date": "epoch time",
+              "Time_range": "",
+              "UOM_ID": 2,
+              "centerId": 3,
+              "estimatedAmount": 323,
+              "estimatedArea": 2.22,
+              "estimatedBilling_unit": 333,
+              "farmId": 1,
+              "serviceDate": "epoch time",
+              "status": "tentative"
+            }
+          ],
           "serviceLine": 2,
-          "serviceTypeId": 1,
-          "LMD": 1557337560000
+          "serviceTypeId": 1
         }
       ],
       "status": "tentative"
     }
   ],
-  "SyncDate": 1557337560000,
-  "PageSize": 50,
-  "error": ""
+  "error": "",
+  "message": "",
+  "status": true
 }
 ```
 
@@ -41,33 +57,11 @@ create order
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+for request body refer the above Json. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-body-parameters %}
-{% api-method-parameter name="machine\_type" type="number" required=false %}
-
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="machine\_make" type="string" required=false %}
-
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="model\_year" type="string" required=false %}
-
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="available" type="string" required=false %}
-is available for rent
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="owned" type="boolean" required=false %}
-machine owned or leased
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
 
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
