@@ -47,8 +47,8 @@ Sr list.
         {
           "serviceId": 10,
           "Stage": 500,
-	      "price": 3,
-    	  "discount": 3
+          "price": 3,
+          "discount": 3
         }
       ]
     }

@@ -33,7 +33,7 @@ insertOrUpdateJobs
 {% endapi-method-summary %}
 
 {% api-method-description %}
-for request body refer the above Json. 
+for request body refer the above Json.
 {% endapi-method-description %}
 
 {% api-method-spec %}

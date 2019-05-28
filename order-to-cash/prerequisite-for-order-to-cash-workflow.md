@@ -1,20 +1,14 @@
 # Prerequisite for Order to cash workflow
 
+#### Action Points
+
+* package listing api
+* add service list in center meta-data api
+* add business rules list in center meta data api
 
 
-**Package :**
 
-* Name
-* validity
-* structure/ b.line/ BA
-* MRP/discount/List price
-
-**package/bundle**
-
-* serviceId
-* Stage
-* packageId
-* MRP/discount/List price
+**Reference for Schema level at backend  :**
 
 **Service Type**
 
