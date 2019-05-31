@@ -4,7 +4,148 @@ description: 'Create order.  Important : no order can be created without a sr an
 
 # Order creation
 
+#### Workflow:
+
+ - 
+
+
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>Order</b>
+      </th>
+      <th style="text-align:left"><b>Sr/St</b>
+      </th>
+      <th style="text-align:left"><b>Job</b>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
+        <ul>
+          <li><b>farmerId</b>
+          </li>
+          <li><b>packageID(nullable)</b>
+          </li>
+          <li><b>Referred type</b>
+          </li>
+          <li><b>Referred by</b>
+          </li>
+          <li><b>date</b>
+          </li>
+          <li><b>status</b>
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">
+        <ul>
+          <li><b>serviceTypeId</b>
+          </li>
+          <li><b>serviceLine</b>
+          </li>
+          <li><b>Rate</b>
+          </li>
+          <li><b>businessDevBy</b>
+          </li>
+          <li><b>Discount</b>
+          </li>
+          <li><b>Mrp</b>
+          </li>
+          <li><b>List price</b>
+          </li>
+          <li><b>status</b>
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">
+        <p><b>Creation:</b>
+        </p>
+        <ul>
+          <li><b>farmId</b>
+          </li>
+          <li><b>estimatedArea</b>
+          </li>
+          <li><b> UOM ID</b>
+          </li>
+          <li><b>estimatedBilling unit</b>
+          </li>
+          <li><b>estimatedAmount</b>
+          </li>
+          <li><b>Tentative date</b>
+          </li>
+          <li><b>Time range</b>
+          </li>
+          <li><b>status</b>
+          </li>
+        </ul>
+        <p><b>Assignment: </b>
+        </p>
+        <p><b> - centerId </b>
+        </p>
+        <p><b> - Service Partner</b>
+        </p>
+        <p>&lt;b&gt;&lt;/b&gt;</p>
+        <p><b>Scheduling</b>
+        </p>
+        <ul>
+          <li><b>Machine</b>
+          </li>
+          <li><b>Operator</b>
+          </li>
+          <li><b>serviceDate</b>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+{% api-method method="post" host="host" path="/api/order/createOrder" %}
+{% api-method-summary %}
+create order
+{% endapi-method-summary %}
+
+{% api-method-description %}
+for request body refer the Below Json. 
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+Cake successfully retrieved.
+{% endapi-method-response-example-description %}
+
 ```javascript
+{
+    "client_ID": "dsdsd2323333ed3",
+    "id": 1,
+    "status": true
+}
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=404 %}
+{% api-method-response-example-description %}
+Could not find a cake matching this query.
+{% endapi-method-response-example-description %}
+
+```javascript
+{
+    "message": "Ain't no cake like that."
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+```javascript
+Request Body : 
 {
   "PageSize": 50,
   "SyncDate": 1557337560000,
@@ -50,46 +191,4 @@ description: 'Create order.  Important : no order can be created without a sr an
   "status": true
 }
 ```
-
-{% api-method method="post" host="host" path="/api/order/createOrder" %}
-{% api-method-summary %}
-create order
-{% endapi-method-summary %}
-
-{% api-method-description %}
-for request body refer the above Json. 
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Cake successfully retrieved.
-{% endapi-method-response-example-description %}
-
-```javascript
-{
-    "client_ID": "dsdsd2323333ed3",
-    "id": 1,
-    "status": true
-}
-```
-{% endapi-method-response-example %}
-
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Could not find a cake matching this query.
-{% endapi-method-response-example-description %}
-
-```javascript
-{
-    "message": "Ain't no cake like that."
-}
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
 

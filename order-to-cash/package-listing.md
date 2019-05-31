@@ -1,5 +1,12 @@
 # Package Listing
 
+#### Workflow:
+
+* We can link multiple center with a package, center id will be passed to fetch package list.
+* package can only be linked if all services under package are available at that center, vice-versa package will be deactivated on a centre if after sometime service is deactivated.
+
+
+
 {% api-method method="get" host="https://host" path="/api/order/packageList" %}
 {% api-method-summary %}
 get package list

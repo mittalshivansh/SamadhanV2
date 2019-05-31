@@ -9,6 +9,7 @@
   * [Platform Master data](metadata/platform-master-data.md)
 * [Order to cash flow](order-to-cash/README.md)
   * [Prerequisite for Order to cash workflow](order-to-cash/prerequisite-for-order-to-cash-workflow.md)
+  * [Permission Management](order-to-cash/permission-management.md)
   * [Package Listing](order-to-cash/package-listing.md)
   * [Order creation](order-to-cash/order-creation.md)
   * [Job creation or updation](order-to-cash/job-creation-or-updation.md)
