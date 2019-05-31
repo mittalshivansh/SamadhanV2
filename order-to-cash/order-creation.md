@@ -18,9 +18,15 @@ Case 1 : when no package
 
 Case 2 : When package is selected 
 
-* package
+* multiple sr corresponding to each service line stage in package will be created.
+* package's discount, Mrp, list price will be copied in each sr as record of transaction.
+* then the flow will be same as above
+
+should farm's village should be copied to job as farm can be edited later?
 
 
+
+Note : Rate will be derived from center  + geography, so it will be like ServiceLine - center - village - rate. 
 
 **Sr status precedence** : pending &lt; in-progress &lt; completed &lt; cancelled &lt; closed
 
