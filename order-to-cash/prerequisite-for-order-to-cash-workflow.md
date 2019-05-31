@@ -5,7 +5,7 @@
 * [Package listing and api](package-listing.md)
 * add service list in center meta-data api
 * add business rules list in center meta data api
-* [Permissions](permission-management.md) \(To be discussed\)
+* [Permission Management System](permission-management.md) \(To be discussed\)
 
 
 

@@ -6,7 +6,27 @@ description: 'Create order.  Important : no order can be created without a sr an
 
 #### Workflow:
 
- - 
+* We will have three layers to get the job into existence. Refer the table below.
+* Without a job sr cannot exist and without a sr order cannot exist \(for now\)
+
+Case 1 : when no package 
+
+* packageId will be null in case of single service  
+* sr will be created in pending state and job also in pending state
+* Job will moved to assigned or tentative-schedule\(current system\) after center or service partner is assigned
+* Job will move to schedule after machine, operator and time is confirmed 
+
+Case 2 : When package is selected 
+
+* package
+
+
+
+**Sr status precedence** : pending &lt; in-progress &lt; completed &lt; cancelled &lt; closed
+
+**Job status precedence** : Pending &lt; Tentative &lt; Tentative- Schedule\(or Assigned\) &lt; Schedule &lt; Closed &lt;                     completed
+
+**Order status precedence :** pending &lt; in-progress &lt; completed &lt; cancelled
 
 
 

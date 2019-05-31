@@ -1,3 +1,7 @@
+---
+description: Keep it simple and stupid
+---
+
 # Permission Management system
 
 **WorkFlow :**
@@ -22,7 +26,7 @@ At mobile permission will be fetched at 2 levels :
 * First user profile permissions
 * Center permissions \(at this level only inactive permissions to optimize the data\)
 
-Mobile app will compute intersection and allow operations accordingly. 
+**Mobile app will compute intersection of permissions from 2 levels and allow operations accordingly.** 
 
 **Second Approach :** Server will compute intersection and send the permissions to client.
 
