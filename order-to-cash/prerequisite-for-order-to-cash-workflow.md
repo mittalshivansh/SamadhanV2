@@ -2,7 +2,7 @@
 
 #### Prerequisite Action Points
 
-* [package listing api](package-listing.md)
+* [Package listing and api](package-listing.md)
 * add service list in center meta-data api
 * add business rules list in center meta data api
 * [Permissions](permission-management.md) \(To be discussed\)
