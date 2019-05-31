@@ -77,6 +77,8 @@ Case 2 : When package is selected
           </li>
           <li><b>status</b>
           </li>
+          <li><b>season</b>
+          </li>
         </ul>
       </td>
       <td style="text-align:left">
