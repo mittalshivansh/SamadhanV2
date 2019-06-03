@@ -152,19 +152,11 @@ Cake successfully retrieved.
 {
     "client_ID": "dsdsd2323333ed3",
     "id": 1,
+    "sr":[
+    {"id":1
+    "job":[{"id":1}]
+    }]
     "status": true
-}
-```
-{% endapi-method-response-example %}
-
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Could not find a cake matching this query.
-{% endapi-method-response-example-description %}
-
-```javascript
-{
-    "message": "Ain't no cake like that."
 }
 ```
 {% endapi-method-response-example %}
@@ -175,8 +167,6 @@ Could not find a cake matching this query.
 ```javascript
 Request Body : 
 {
-  "PageSize": 50,
-  "SyncDate": 1557337560000,
   "data": [
     {
       "ID": 174928,
@@ -213,10 +203,7 @@ Request Body :
       ],
       "status": "tentative"
     }
-  ],
-  "error": "",
-  "message": "",
-  "status": true
+  ]
 }
 ```
 

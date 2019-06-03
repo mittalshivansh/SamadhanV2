@@ -19,17 +19,13 @@ center id
 {% api-method-parameter name="ts" type="number" required=false %}
 timestamp
 {% endapi-method-parameter %}
-
-{% api-method-parameter name="pn" type="number" required=false %}
-page no
-{% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Sr list.
+
 {% endapi-method-response-example-description %}
 
 ```javascript
@@ -49,9 +45,25 @@ Sr list.
           "Discount": 10,
           "Rate": 500,
           "businessDevBy": 2,
+          "job": [
+            {
+              "Machine": 2,
+              "Operator": 2,
+              "Service_Partner": "",
+              "Tentative_date": "epoch time",
+              "Time_range": "",
+              "UOM_ID": 2,
+              "centerId": 3,
+              "estimatedAmount": 323,
+              "estimatedArea": 2.22,
+              "estimatedBilling_unit": 333,
+              "farmId": 1,
+              "serviceDate": "epoch time",
+              "status": "tentative"
+            }
+          ],
           "serviceLine": 2,
-          "serviceTypeId": 1,
-          "LMD": 1557337560000
+          "serviceTypeId": 1
         }
       ],
       "status": "tentative"
