@@ -49,7 +49,7 @@ Sr list.
       "Name": "",
       "price": 3,
       "discount": 3,
-      "validity": 1,
+      "validity": "time-stamp",
       "services": [
         {
           "serviceId": 10,
