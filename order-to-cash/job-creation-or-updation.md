@@ -6,6 +6,7 @@
   "SyncDate": 1557337560000,
   "data": [
             {
+              "srId":1,
               "Machine": 2,
               "Operator": 2,
               "Service_Partner": "",
