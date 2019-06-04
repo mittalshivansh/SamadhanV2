@@ -7,14 +7,14 @@
   "serviceLineList": [
     {
       "Code": "",
-      "cropList": [],
+      "cropList": [], //TBD
       "id": "",
-      "machineTypeList": [],
+      "machineTypeList": [],//TBD
       "maxRate": "",
       "minRate": "",
       "rateType": "",
       "serviceTypeId": "",
-      "soilList": [],
+      "soilList": [],//TBD
       "stage": "id",
       "standardConversion_from_acres": "",
       "standardTimeConsumption": "",
