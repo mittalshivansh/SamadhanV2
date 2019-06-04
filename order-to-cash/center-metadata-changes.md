@@ -18,6 +18,8 @@
       "stage": "id",
       "standardConversion_from_acres": "",
       "standardTimeConsumption": "",
+      "standardFuelConsumption":"",
+      "standardTransitTime":"",
       "villageWiseRate": [
         {
           "maxRate": "",
