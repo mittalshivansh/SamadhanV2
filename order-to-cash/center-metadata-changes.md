@@ -14,7 +14,8 @@ serviceLineList:[
 "cropList":[],
 "soilList":[],
 "machineTypeList":[]
-"rate":""
+"rate":"",
+"stage":""
 }
 ]
 
