@@ -1,6 +1,6 @@
 # Center Master Data
 
-{% api-method method="get" host="http://192.168.1.111:5000/api/" path="Master/GetCenterMasterData?ci=223" %}
+{% api-method method="get" host="http://192.168.1.111:5000/api/" path="Master/GetCenterMasterData" %}
 {% api-method-summary %}
 Get Center Master Data
 {% endapi-method-summary %}
