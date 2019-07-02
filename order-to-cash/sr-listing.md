@@ -1,6 +1,6 @@
 # Order listing
 
-{% api-method method="get" host="https://host" path="/api/order/OrderSrList" %}
+{% api-method method="get" host="https://host" path="/api/OrderToCash/OrderSrList" %}
 {% api-method-summary %}
 getOrderAndSr
 {% endapi-method-summary %}
@@ -12,6 +12,10 @@ This endpoint allows you to get free cakes.
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-query-parameters %}
+{% api-method-parameter name="pn" type="number" required=false %}
+Page Number
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="ci" type="number" required=false %}
 center id
 {% endapi-method-parameter %}
