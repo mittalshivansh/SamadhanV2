@@ -15,4 +15,6 @@
   * [Job creation or updation](order-to-cash/job-creation-or-updation.md)
   * [Order listing](order-to-cash/sr-listing.md)
   * [Center Metadata changes](order-to-cash/center-metadata-changes.md)
+* [SOIL](soil/README.md)
+  * [Insert Soil](soil/insert-soil.md)
 
