@@ -17,4 +17,7 @@
   * [Center Metadata changes](order-to-cash/center-metadata-changes.md)
 * [SOIL](soil/README.md)
   * [Insert Soil](soil/insert-soil.md)
+  * [Update Soil](soil/update-soil.md)
+  * [Delete Soil](soil/delete-soil.md)
+  * [Soil List](soil/soil.md)
 
