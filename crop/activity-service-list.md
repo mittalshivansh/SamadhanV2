@@ -1,5 +1,5 @@
 ---
-description: Activity and soil list based on Crop
+description: Activity and Service list
 ---
 
 # Activity Service List
@@ -15,12 +15,6 @@ description: Activity and soil list based on Crop
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="CropId" type="number" required=true %}
-
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
 
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
