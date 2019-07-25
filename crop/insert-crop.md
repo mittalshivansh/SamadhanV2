@@ -1,8 +1,8 @@
-# Insert Soil
+# Insert Crop
 
-{% api-method method="post" host="http://samadhanv2api.em3agri.com/api/" path="soil/InsertSoil" %}
+{% api-method method="post" host="http://samadhanv2api.em3agri.com/api/" path="crop/InsertCrop" %}
 {% api-method-summary %}
-Insert Soil
+
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -16,8 +16,13 @@ Insert Soil
 {  
       "Cd":"t1",  
       "Nm":"Test 2",  
-        "Uid":1  
- }
+       "Type":"K",  
+        "Uid":1,  
+        "Soil":\[1,2,3\]  
+ }  
+  
+  
+K-Kharif, R-Rabi, Z-Zaid
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
@@ -25,13 +30,13 @@ Insert Soil
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Soil Inserted Successfully
+
 {% endapi-method-response-example-description %}
 
 ```javascript
 {
     "status": true,
-    "message": "Soil Inserted successfully.",
+    "message": "Crop Inserted successfully.",
     "data": null,
     "SyncDate": null,
     "PageSize": null,

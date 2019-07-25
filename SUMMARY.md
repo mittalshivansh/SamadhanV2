@@ -20,4 +20,9 @@
   * [Update Soil](soil/update-soil.md)
   * [Delete Soil](soil/delete-soil.md)
   * [Soil List](soil/soil.md)
+* [CROP](crop/README.md)
+  * [Insert Crop](crop/insert-crop.md)
+  * [Update Crop](crop/update-crop.md)
+  * [Delete Crop](crop/delete-crop.md)
+  * [Crop List](crop/crop-list.md)
 

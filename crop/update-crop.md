@@ -1,8 +1,8 @@
-# Insert Soil
+# Update Crop
 
-{% api-method method="post" host="http://samadhanv2api.em3agri.com/api/" path="soil/InsertSoil" %}
+{% api-method method="post" host="http://samadhanv2api.em3agri.com/api/" path="soil/UpdateSoil" %}
 {% api-method-summary %}
-Insert Soil
+Update Crop
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -13,11 +13,16 @@ Insert Soil
 {% api-method-request %}
 {% api-method-body-parameters %}
 {% api-method-parameter name="" type="string" required=false %}
-{  
+  
+      "ID":10,  
       "Cd":"t1",  
       "Nm":"Test 2",  
-        "Uid":1  
- }
+      "Type":"K",  
+        "Uid":1,  
+        "Soil":\[2,3,4\]  
+ }  
+  
+K-Kharif, R-Rabi, Z-Zaid
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
@@ -25,30 +30,13 @@ Insert Soil
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Soil Inserted Successfully
+
 {% endapi-method-response-example-description %}
 
 ```javascript
 {
     "status": true,
-    "message": "Soil Inserted successfully.",
-    "data": null,
-    "SyncDate": null,
-    "PageSize": null,
-    "error": ""
-}
-```
-{% endapi-method-response-example %}
-
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```javascript
-{
-    "status": false,
-    "message": "Something went wrong.",
+    "message": "Crop Updated successfully.",
     "data": null,
     "SyncDate": null,
     "PageSize": null,

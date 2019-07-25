@@ -26,37 +26,44 @@ Cake successfully retrieved.
         {
             "ID": 1,
             "CD": null,
-            "NM": "sandy_loam"
+            "NM": "sandy_loam",
+            "IsDel": true
         },
         {
             "ID": 2,
             "CD": null,
-            "NM": "loam"
+            "NM": "loam",
+            "IsDel": true
         },
         {
             "ID": 3,
             "CD": null,
-            "NM": "alluvial"
+            "NM": "alluvial",
+            "IsDel": true
         },
         {
             "ID": 4,
             "CD": null,
-            "NM": "red"
+            "NM": "red",
+            "IsDel": true
         },
         {
             "ID": 5,
             "CD": null,
-            "NM": "laterite"
+            "NM": "laterite",
+            "IsDel": true
         },
         {
             "ID": 6,
             "CD": null,
-            "NM": "desert"
+            "NM": "desert",
+            "IsDel": true
         },
         {
             "ID": 7,
             "CD": null,
-            "NM": "black"
+            "NM": "black",
+            "IsDel": true
         }
     ],
     "SyncDate": null,
