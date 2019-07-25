@@ -11,6 +11,12 @@
 
 {% api-method-spec %}
 {% api-method-request %}
+{% api-method-body-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+a
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
+{% endapi-method-request %}
 
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
@@ -28,140 +34,280 @@
             "IsDel": false,
             "ID": 1,
             "CD": null,
-            "NM": "Arhar"
+            "NM": "Arhar",
+            "Soil":[
+                {
+                "ID": 1,
+                "CD": null,
+                "NM": "sandy_loam",
+                }
+            ]
         },
         {
             "Type": "K",
             "IsDel": false,
             "ID": 2,
             "CD": null,
-            "NM": "Barley"
+            "NM": "Barley",
+            "Soil":[
+                {
+                "ID": 1,
+                "CD": null,
+                "NM": "sandy_loam",
+                }
+            ]
         },
         {
             "Type": "K",
             "IsDel": false,
             "ID": 3,
             "CD": null,
-            "NM": "Chana"
+            "NM": "Chana",
+            "Soil":[
+                {
+                "ID": 1,
+                "CD": null,
+                "NM": "sandy_loam",
+                }
+            ]
         },
         {
             "Type": "K",
             "IsDel": false,
             "ID": 4,
             "CD": null,
-            "NM": "Coriander"
+            "NM": "Coriander",
+            "Soil":[
+                {
+                "ID": 1,
+                "CD": null,
+                "NM": "sandy_loam",
+                }
+            ]
         },
         {
             "Type": "K",
             "IsDel": false,
             "ID": 5,
             "CD": null,
-            "NM": "Cotton"
+            "NM": "Cotton",
+            "Soil":[
+                {
+                "ID": 1,
+                "CD": null,
+                "NM": "sandy_loam",
+                }
+            ]
         },
         {
             "Type": "K",
             "IsDel": false,
             "ID": 6,
             "CD": null,
-            "NM": "Garlic"
+            "NM": "Garlic",
+            "Soil":[
+                {
+                "ID": 1,
+                "CD": null,
+                "NM": "sandy_loam",
+                }
+            ]
         },
         {
             "Type": "K",
             "IsDel": false,
             "ID": 7,
             "CD": null,
-            "NM": "Gaur"
+            "NM": "Gaur",
+            "Soil":[
+                {
+                "ID": 1,
+                "CD": null,
+                "NM": "sandy_loam",
+                }
+            ]
         },
         {
             "Type": "K",
             "IsDel": false,
             "ID": 8,
             "CD": null,
-            "NM": "Groundnut"
+            "NM": "Groundnut",
+            "Soil":[
+                {
+                "ID": 1,
+                "CD": null,
+                "NM": "sandy_loam",
+                }
+            ]
         },
         {
             "Type": "K",
             "IsDel": false,
             "ID": 9,
             "CD": null,
-            "NM": "Jwar"
+            "NM": "Jwar",
+            "Soil":[
+                {
+                "ID": 1,
+                "CD": null,
+                "NM": "sandy_loam",
+                }
+            ]
         },
         {
             "Type": "K",
             "IsDel": false,
             "ID": 10,
             "CD": null,
-            "NM": "Maize"
+            "NM": "Maize",
+            "Soil":[
+                {
+                "ID": 1,
+                "CD": null,
+                "NM": "sandy_loam",
+                }
+            ]
         },
         {
             "Type": "K",
             "IsDel": false,
             "ID": 11,
             "CD": null,
-            "NM": "Moong"
+            "NM": "Moong",
+            "Soil":[
+                {
+                "ID": 1,
+                "CD": null,
+                "NM": "sandy_loam",
+                }
+            ]
         },
         {
             "Type": "K",
             "IsDel": false,
             "ID": 12,
             "CD": null,
-            "NM": "Mustard"
+            "NM": "Mustard",
+            "Soil":[
+                {
+                "ID": 1,
+                "CD": null,
+                "NM": "sandy_loam",
+                }
+            ]
         },
         {
             "Type": "K",
             "IsDel": false,
             "ID": 13,
             "CD": null,
-            "NM": "Paddy"
+            "NM": "Paddy",
+            "Soil":[
+                {
+                "ID": 1,
+                "CD": null,
+                "NM": "sandy_loam",
+                }
+            ]
         },
         {
             "Type": "K",
             "IsDel": false,
             "ID": 14,
             "CD": null,
-            "NM": "Pearl millet"
+            "NM": "Pearl millet",
+            "Soil":[
+                {
+                "ID": 1,
+                "CD": null,
+                "NM": "sandy_loam",
+                }
+            ]
         },
         {
             "Type": "K",
             "IsDel": false,
             "ID": 15,
             "CD": null,
-            "NM": "Potato"
+            "NM": "Potato",
+            "Soil":[
+                {
+                "ID": 1,
+                "CD": null,
+                "NM": "sandy_loam",
+                }
+            ]
         },
         {
             "Type": "K",
             "IsDel": false,
             "ID": 16,
             "CD": null,
-            "NM": "Soyabean"
+            "NM": "Soyabean",
+            "Soil":[
+                {
+                "ID": 1,
+                "CD": null,
+                "NM": "sandy_loam",
+                }
+            ]
         },
         {
             "Type": "K",
             "IsDel": false,
             "ID": 17,
             "CD": null,
-            "NM": "Sugarcane"
+            "NM": "Sugarcane",
+            "Soil":[
+                {
+                "ID": 1,
+                "CD": null,
+                "NM": "sandy_loam",
+                }
+            ]
         },
         {
             "Type": "K",
             "IsDel": false,
             "ID": 18,
             "CD": null,
-            "NM": "Urad"
+            "NM": "Urad",
+            "Soil":[
+                {
+                "ID": 1,
+                "CD": null,
+                "NM": "sandy_loam",
+                }
+            ]
         },
         {
             "Type": "K",
             "IsDel": false,
             "ID": 19,
             "CD": null,
-            "NM": "Vegetables"
+            "NM": "Vegetables",
+            "Soil":[
+                {
+                "ID": 1,
+                "CD": null,
+                "NM": "sandy_loam",
+                }
+            ]
         },
         {
             "Type": "K",
             "IsDel": false,
             "ID": 20,
             "CD": null,
-            "NM": "Wheat"
+            "NM": "Wheat",
+            "Soil":[
+                {
+                "ID": 1,
+                "CD": null,
+                "NM": "sandy_loam",
+                }
+            ]
         }
     ],
     "SyncDate": null,
