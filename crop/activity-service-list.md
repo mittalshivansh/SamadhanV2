@@ -4,7 +4,7 @@ description: Activity and Service list
 
 # Activity Service List
 
-{% api-method method="get" host="http://samadhanv2api.em3agri.com/api/" path="crop/ActivityServListByCrop" %}
+{% api-method method="get" host="http://samadhanv2api.em3agri.com/api/" path="Service/GetActivityServiceList" %}
 {% api-method-summary %}
 
 {% endapi-method-summary %}
