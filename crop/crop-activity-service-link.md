@@ -1,6 +1,6 @@
 # Crop Activity Service Link
 
-{% api-method method="post" host="http://samadhanv2api.em3agri.com/api/" path="crop/CropActivityServiceList" %}
+{% api-method method="post" host="http://samadhanv2api.em3agri.com/api/" path="crop/InsertCropActivityService" %}
 {% api-method-summary %}
 
 {% endapi-method-summary %}
