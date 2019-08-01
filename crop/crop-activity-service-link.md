@@ -18,11 +18,11 @@
      "CROP": 1,  
      "AcServ":  
 \[ {   
-         "AC": "1",               "SERV": {1,2,3},  
+         "AC": "1",               "SERV": \[1,2,3\],  
  },   
 {   
      "AC": "2",   
-"SERV": {2,3,4},  
+"SERV": \[2,3,4\],  
 } \]   
 }
 {% endapi-method-parameter %}
