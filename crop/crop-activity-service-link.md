@@ -18,11 +18,22 @@
      "CROP": 1,  
      "AcServ":  
 \[ {   
-         "AC": "1",               "SERV": \[1,2,3\],  
+         "AC": "1",               "SERV": \[{  
+       ID: 1,  
+       IsChecked: true  
+       },  
+     {   
+         ID: 2,  
+IsChecked: false}\]  
  },   
 {   
      "AC": "2",   
-"SERV": \[2,3,4\],  
+"SERV": \[{   
+ID: 2,  
+IsChecked: true   
+}, {   
+ID:3,   
+IsChecked: false}\]  
 } \]   
 }
 {% endapi-method-parameter %}
